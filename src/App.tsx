@@ -11,7 +11,7 @@ import './App.css';
 function App() {
   return (
     <CartProvider>
-      <Router>
+      <Router basename="/restaurante-pety-s">
         <div className="app">
           <Navbar />
           <main className="main-content">

@@ -429,6 +429,56 @@
   box-shadow: 0 10px 25px rgba(255, 107, 53, 0.3);
 }
 
+@media (max-width: 480px) {
+  .page-title {
+    font-size: 1.6rem;
+  }
+
+  .cart-item {
+    padding: 1rem;
+  }
+
+  .item-image img {
+    max-width: 150px;
+    height: 100px;
+  }
+
+  .item-name {
+    font-size: 1rem;
+  }
+
+  .item-description {
+    font-size: 0.8rem;
+  }
+
+  .quantity-btn {
+    width: 28px;
+    height: 28px;
+  }
+
+  .quantity {
+    font-size: 0.9rem;
+    min-width: 25px;
+  }
+
+  .remove-btn {
+    width: 34px;
+    height: 34px;
+  }
+
+  .summary-card {
+    padding: 1.2rem;
+  }
+
+  .checkout-form {
+    padding: 1.2rem;
+  }
+
+  .checkout-form h2 {
+    font-size: 1.3rem;
+  }
+}
+
 @media (max-width: 768px) {
   .cart-page {
     padding: 1rem 0;
@@ -441,23 +491,25 @@
   .cart-header {
     flex-direction: column;
     align-items: flex-start;
-    gap: 1rem;
+    gap: 0.8rem;
+    margin-bottom: 1.5rem;
   }
 
   .page-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .cart-content {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
+    gap: 1.2rem;
   }
 
   .cart-item {
     grid-template-columns: 1fr;
-    gap: 1.5rem;
-    text-align: left;
-    padding: 2rem;
+    gap: 1rem;
+    text-align: center;
+    padding: 1.2rem;
+    border-radius: 12px;
   }
 
   .item-image {
@@ -466,13 +518,27 @@
 
   .item-image img {
     width: 100%;
-    max-width: 300px;
-    height: 200px;
+    max-width: 200px;
+    height: 130px;
   }
 
   .item-details {
     text-align: center;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
+  }
+
+  .item-name {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .item-description {
+    font-size: 0.85rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .item-price {
+    font-size: 1rem;
   }
 
   .item-controls {
@@ -483,11 +549,76 @@
     gap: 1rem;
   }
 
+  .quantity-controls {
+    padding: 0.3rem;
+  }
+
+  .quantity-btn {
+    width: 32px;
+    height: 32px;
+  }
+
+  .quantity {
+    font-size: 1rem;
+    min-width: 30px;
+  }
+
+  .item-total {
+    font-size: 1.1rem;
+  }
+
+  .remove-btn {
+    width: 38px;
+    height: 38px;
+  }
+
+  .summary-card {
+    padding: 1.5rem;
+  }
+
+  .summary-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .checkout-btn {
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+
+  .checkout-form {
+    padding: 1.5rem;
+  }
+
+  .checkout-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .form-group {
+    margin-bottom: 1.2rem;
+  }
+
+  .form-group input {
+    padding: 0.7rem;
+  }
+
   .radio-group {
     flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .radio-option {
+    padding: 0.7rem;
   }
 
   .checkout-actions {
     flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .back-btn, .send-order-btn {
+    padding: 0.8rem;
+    font-size: 1rem;
   }
 }

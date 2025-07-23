@@ -346,47 +346,107 @@
 
   .footer-grid {
     grid-template-columns: 1fr;
-    gap: 2rem;
-    padding: 3rem 0 1.5rem;
+    gap: 1.5rem;
+    padding: 2.5rem 0 1.2rem;
   }
 
   .brand-name {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .brand-tagline {
+    font-size: 0.9rem;
   }
 
   .footer-title {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
   }
 
-  .social-links {
-    flex-direction: row;
-    flex-wrap: wrap;
+  .contact-item {
+    padding: 0.3rem 0;
   }
 
-  .social-btn {
-    flex: 1;
-    min-width: 130px;
-    justify-content: center;
+  .contact-item span {
+    font-size: 0.9rem;
   }
 
-  .newsletter-form {
-    flex-direction: column;
-  }
-
-  .newsletter-btn {
-    align-self: stretch;
-    padding: 1rem;
+  .footer-link {
+    font-size: 0.9rem;
+    padding: 0.3rem 0;
   }
 
   .hours-item {
     flex-direction: row;
     align-items: center;
+    padding: 0.4rem 0;
   }
 
   .hours-info {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+  }
+
+  .day {
+    font-size: 0.85rem;
+  }
+
+  .time {
+    font-size: 0.8rem;
+  }
+
+  .social-text {
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+  }
+
+  .social-links {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  .social-btn {
+    flex: 1;
+    min-width: 100px;
+    justify-content: center;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.85rem;
+  }
+
+  .newsletter-title {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .newsletter-input {
+    padding: 0.7rem;
+    font-size: 0.9rem;
+  }
+
+  .newsletter-btn {
+    align-self: stretch;
+    padding: 0.8rem;
+  }
+
+  .footer-bottom {
+    padding: 1.5rem 0;
+  }
+
+  .footer-copyright p {
+    font-size: 0.85rem;
+    margin: 0.3rem 0;
+  }
+
+  .footer-credits {
+    font-size: 0.8rem !important;
   }
 }
 

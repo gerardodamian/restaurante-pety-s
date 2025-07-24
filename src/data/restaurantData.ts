@@ -41,7 +41,7 @@ export const menuItems: MenuItem[] = [
         description:
             "Fetuccini con salsa carbonara, panceta, huevo y queso parmesano",
         price: 11000,
-        image: "https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?w=400&h=300&fit=crop",
+        image: "https://www.paulinacocina.net/wp-content/uploads/2023/03/espaguetis-a-la-carbonara-receta-italiana-800x450.jpg",
         category: "Pastas",
     },
     {
@@ -66,7 +66,7 @@ export const menuItems: MenuItem[] = [
         name: "Tiramisú",
         description: "Clásico postre italiano con café, mascarpone y cacao",
         price: 4500,
-        image: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&h=300&fit=crop",
+        image: "https://www.paulinacocina.net/wp-content/uploads/2020/01/receta-de-tiramisu-facil-y-economico-1740483918-1200x675.jpg",
         category: "Postres",
     },
     {
@@ -201,48 +201,51 @@ export const categories = [
 ];
 
 export const weeklyOffers = [
-  {
-    id: "offer1",
-    title: "🍕 PROMO PIZZA",
-    subtitle: "2x1 en Pizzas Familiares",
-    description: "Lleva 2 pizzas familiares al precio de 1. Válido de Lunes a Miércoles",
-    discount: "50% OFF",
-    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&h=400&fit=crop",
-    validUntil: "Válido hasta el Miércoles",
-    bgColor: "linear-gradient(135deg, #ff6b35, #f7931e)",
-    textColor: "white"
-  },
-  {
-    id: "offer2",
-    title: "🥞 DESAYUNO ESPECIAL",
-    subtitle: "Combo Desayuno Completo",
-    description: "Desayuno completo + café + jugo natural por solo $8.990",
-    discount: "20% OFF",
-    image: "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=800&h=400&fit=crop",
-    validUntil: "Válido hasta las 12:00",
-    bgColor: "linear-gradient(135deg, #4facfe, #00f2fe)",
-    textColor: "white"
-  },
-  {
-    id: "offer3",
-    title: "🍔 HAPPY HOUR",
-    subtitle: "Hamburguesas + Bebida",
-    description: "Todas las hamburguesas con bebida incluida. Solo de 18:00 a 20:00",
-    discount: "30% OFF",
-    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&h=400&fit=crop",
-    validUntil: "18:00 - 20:00 hrs",
-    bgColor: "linear-gradient(135deg, #667eea, #764ba2)",
-    textColor: "white"
-  },
-  {
-    id: "offer4",
-    title: "🍰 DULCE FIN DE SEMANA",
-    subtitle: "Postres con 25% descuento",
-    description: "Todos nuestros postres artesanales con descuento especial de fin de semana",
-    discount: "25% OFF",
-    image: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&h=400&fit=crop",
-    validUntil: "Solo Sábados y Domingos",
-    bgColor: "linear-gradient(135deg, #f093fb, #f5576c)",
-    textColor: "white"
-  }
+    {
+        id: "offer1",
+        title: "🍕 PROMO PIZZA",
+        subtitle: "2x1 en Pizzas Familiares",
+        description:
+            "Lleva 2 pizzas familiares al precio de 1. Válido de Lunes a Miércoles",
+        discount: "50% OFF",
+        image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&h=400&fit=crop",
+        validUntil: "Válido hasta el Miércoles",
+        bgColor: "linear-gradient(135deg, #ff6b35, #f7931e)",
+        textColor: "white",
+    },
+    {
+        id: "offer2",
+        title: "🥞 DESAYUNO ESPECIAL",
+        subtitle: "Combo Desayuno Completo",
+        description: "Desayuno completo + café + jugo natural por solo $8.990",
+        discount: "20% OFF",
+        image: "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=800&h=400&fit=crop",
+        validUntil: "Válido hasta las 12:00",
+        bgColor: "linear-gradient(135deg, #4facfe, #00f2fe)",
+        textColor: "white",
+    },
+    {
+        id: "offer3",
+        title: "🍔 HAPPY HOUR",
+        subtitle: "Hamburguesas + Bebida",
+        description:
+            "Todas las hamburguesas con bebida incluida. Solo de 18:00 a 20:00",
+        discount: "30% OFF",
+        image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&h=400&fit=crop",
+        validUntil: "18:00 - 20:00 hrs",
+        bgColor: "linear-gradient(135deg, #667eea, #764ba2)",
+        textColor: "white",
+    },
+    {
+        id: "offer4",
+        title: "🍰 DULCE FIN DE SEMANA",
+        subtitle: "Postres con 25% descuento",
+        description:
+            "Todos nuestros postres artesanales con descuento especial de fin de semana",
+        discount: "25% OFF",
+        image: "https://www.paulinacocina.net/wp-content/uploads/2020/01/receta-de-tiramisu-facil-y-economico-1740483918-1200x675.jpg",
+        validUntil: "Solo Sábados y Domingos",
+        bgColor: "linear-gradient(135deg, #f093fb, #f5576c)",
+        textColor: "white",
+    },
 ];
